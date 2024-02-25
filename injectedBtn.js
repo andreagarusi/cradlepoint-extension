@@ -9,7 +9,7 @@ function handleMutation(mutationsList, observer) {
                 // creazione div interno con classe cp-tooltip per applicare stile testo btn
                 var tooltipDiv = document.createElement('div');
                 tooltipDiv.classList.add('cp-tooltip');
-                tooltipDiv.textContent = 'Start querying';
+                tooltipDiv.textContent = 'Load query';
 
                 injectedBtn.appendChild(tooltipDiv);
 
